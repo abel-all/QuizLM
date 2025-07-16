@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './_components/Header';
 import Footer from './_components/Footer';
-import HeroSection from './_components/hero-section';
+import HeroSection from './_components/HeroSection';
 
 interface props {
     children: React.ReactNode;
@@ -12,7 +12,7 @@ const LandingPageLayout = ({ children }: props) => {
     <div>
         <Header />
         <HeroSection />
-        <div className='container mx-auto px-4'>
+        <div className='relative z-10 container mx-auto px-6'>
             {children}
         </div>
         <Footer />

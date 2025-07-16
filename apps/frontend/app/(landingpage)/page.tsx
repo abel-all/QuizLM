@@ -1,5 +1,5 @@
 import React from 'react'
-import HowItWork from './_components/how-it-work'
+import HowItWork from './_components/HowItWork'
 
 const LangingPage = () => {
   return (

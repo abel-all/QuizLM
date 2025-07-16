@@ -32,8 +32,11 @@ export const GoogleGeminiEffect = ({
         works!`}
       </p>
       <div className="w-full h-[890px] -top-60 md:-top-40  flex items-center justify-center bg-red-transparent absolute ">
-        <Link className="rounded-lg md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-xs w-fit mx-auto" href='/signup'>
-          <Button className="font-bold cursor-pointer" variant='default'>
+        <Link className="rounded-lg md:px-4 md:py-2 px-2 py-1 md:mt-[8.25rem] mt-8 z-30 md:text-base text-xs w-fit mx-auto" href='/signup'>
+          <Button className="md:hidden font-bold cursor-pointer" variant="default" size="default">
+            Try QuizLM
+          </Button>
+          <Button className="max-md:hidden font-bold cursor-pointer" variant="default" size='lg'>
             Try QuizLM
           </Button>
         </Link>
