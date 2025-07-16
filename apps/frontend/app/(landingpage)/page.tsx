@@ -1,10 +1,10 @@
 import React from 'react'
-import HeroSection from './_components/hero-section'
+import HowItWork from './_components/how-it-work'
 
 const LangingPage = () => {
   return (
     <div className=''>
-      
+      <HowItWork />
     </div>
   )
 }
