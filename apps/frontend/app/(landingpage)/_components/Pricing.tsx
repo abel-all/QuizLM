@@ -80,7 +80,7 @@ const Pricing2 = ({
   const [isYearly, setIsYearly] = useState(false);
   return (
     <section className="pb-32">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 text-center">
           <h2 className="text-4xl font-semibold text-pretty lg:text-6xl">
             {heading}
