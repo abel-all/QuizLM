@@ -12,7 +12,7 @@ const LandingPageLayout = ({ children }: props) => {
     <div>
         <Header />
         <HeroSection />
-        <div className='relative z-10 container mx-auto px-6'>
+        <div className='relative z-10'>
             {children}
         </div>
         <Footer />

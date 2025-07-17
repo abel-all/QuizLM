@@ -33,8 +33,8 @@ const cardContent = [
 
 const HowItWork = () => {
   return (
-    <div className='flex flex-col gap-14 items-center'>
-        <div className='text-center font-sans text-xl md:text-2xl'>
+    <div className='flex flex-col gap-14 items-center px-6'>
+        <div className='text-center font-sans text-xl md:text-3xl'>
             Your Intelligent Quiz Creation Assistant
         </div>
         <div className='w-full max-w-6xl flex flex-col gap-20'>
