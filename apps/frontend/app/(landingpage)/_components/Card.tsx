@@ -9,7 +9,7 @@ interface props {
   Icon: LucideIcon;
 }
 
-const Cart = ({ title, description, video, Icon }: props) => {
+const Card = ({ title, description, video, Icon }: props) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const isImage = video.includes(".png");
 
@@ -70,4 +70,4 @@ const Cart = ({ title, description, video, Icon }: props) => {
   );
 };
 
-export default Cart;
+export default Card;

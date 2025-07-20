@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Cart from './Cart'
+import Card from './Card'
 import { Cannabis, Gauge, Hexagon, User,  } from 'lucide-react'
 
 
@@ -39,7 +39,7 @@ const HowItWork = () => {
         </div>
         <div className='w-full max-w-6xl flex flex-col gap-20'>
             {cardContent.map(({title, description, video, Icon}, index) => (
-                <Cart key={index} title={title} description={description} video={video} Icon={Icon} />
+                <Card key={index} title={title} description={description} video={video} Icon={Icon} />
             ))}
         </div>
     </div>

@@ -3,8 +3,7 @@ import React from 'react'
 import logo from '@/public/logo.svg'
 import logo_white from '@/public/logo_white.svg'
 import { ModeToggle } from '@/components/modeToogle'
-import { Button } from "@/components/ui/button"
-import Link from 'next/link'
+import google from '@/public/google.png'
 
 
 const Header = () => {
@@ -15,9 +14,9 @@ const Header = () => {
             <Image className='dark:block hidden' height={40} src={logo_white} alt='QuizLM'/>
             <div className='flex gap-0 items-center'>
                 <ModeToggle/>
-                <Link href="/signin">
-                  <Button className="cursor-pointer" variant="link" size="default" >SignIn</Button>
-                </Link>
+                <div className='relative'>
+                    <Image src={google} alt="profile image" className='object-cover' fill sizes='60px'/>
+                </div>
             </div>
         </div>
     </header>
