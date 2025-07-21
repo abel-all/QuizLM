@@ -54,16 +54,16 @@ const QuizzesSection = () => {
                 <div key={index} onClick={handleCardClick} className='card hover:bg-background transition-all duration-300 bg-muted cursor-pointer h-56 border-2 border-muted rounded-2xl flex flex-col justify-between p-6'>
                     <div className='icon-and-bulk flex justify-between'>
                         <Icon size={40} />
-                        <div className="p-3 hover:bg-background rounded-full cursor-pointer">
+                        <div className="p-3 hover:bg-muted rounded-full cursor-pointer">
                             <EllipsisVertical size={20} onClick={(e) => {
                                 e.stopPropagation()
                                 handleIconClick()
                             }} />
                         </div>
                     </div>
-                    <div className='title-and-date '>
+                    <div className='title-and-date flex flex-col gap-2'>
                         <div className='font-sans text-xl md:text-2xl line-clamp-2' title={title}>{title}</div>
-                        <div className='text-xs md:text-sm'>{date}</div>
+                        <div className='text-xs md:text-sm opacity-70'>{date}</div>
                     </div>
                 </div>
             ))}
