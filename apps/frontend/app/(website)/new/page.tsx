@@ -1,10 +1,8 @@
-import React from 'react'
+import { redirect } from 'next/navigation'
 
 const NewQuizPage = () => {
   return (
-    <div className=''>
-        
-    </div>
+    redirect("/dashboard")
   )
 }
 

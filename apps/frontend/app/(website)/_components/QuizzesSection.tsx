@@ -1,26 +1,26 @@
 'use client'
 
-import { Apple, EllipsisVertical, Plus } from 'lucide-react'
+import { FileText, EllipsisVertical, Plus } from 'lucide-react'
 import React from 'react'
 
 const cardContent = [
     {
-        Icon: Apple,
+        Icon: FileText,
         title: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
         date: "21 Jul 2025",
     },
     {
-        Icon: Apple,
+        Icon: FileText,
         title: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
         date: "21 Jul 2025",
     },
     {
-        Icon: Apple,
+        Icon: FileText,
         title: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
         date: "21 Jul 2025",
     },
     {
-        Icon: Apple,
+        Icon: FileText,
         title: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
         date: "21 Jul 2025",
     },
