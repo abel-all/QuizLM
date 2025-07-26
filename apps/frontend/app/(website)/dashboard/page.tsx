@@ -74,11 +74,11 @@ const Dashboard = () => {
                   </div>
                 </div>
                 <div className="flex gap-3 flex-wrap">
-                  <div onClick={hnadleWebsiteClick} className="cursor-pointer flex items-center gap-2 bg-foreground/60 rounded-lg px-3 py-1">
+                  <div onClick={hnadleWebsiteClick} className="cursor-pointer flex items-center gap-2 bg-foreground rounded-lg px-3 py-1">
                     <PanelsTopLeft className="text-background" />
                     <div className="text-background text-sm">Website</div>
                   </div>
-                  <div onClick={hnadleYoutubeClick} className="cursor-pointer flex items-center gap-2 bg-foreground/60 rounded-lg px-3 py-1">
+                  <div onClick={hnadleYoutubeClick} className="cursor-pointer flex items-center gap-2 bg-foreground rounded-lg px-3 py-1">
                     <Youtube className="text-background" />
                     <div className="text-background text-sm">Youtube</div>
                   </div>
@@ -92,7 +92,7 @@ const Dashboard = () => {
                    </div>
                 </div>
                 <div className="flex gap-3 flex-wrap">
-                  <div onClick={hnadleTextClick} className="cursor-pointer flex items-center gap-2 bg-foreground/60 rounded-lg px-3 py-1">
+                  <div onClick={hnadleTextClick} className="cursor-pointer flex items-center gap-2 bg-foreground rounded-lg px-3 py-1">
                     <NotepadText className="text-background" />
                     <div className="text-background text-sm">Copied text</div>
                   </div>

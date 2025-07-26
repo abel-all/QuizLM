@@ -1,33 +1,42 @@
 "use client";
 
 import { DialogTrigger } from "@/components/ui/dialog";
-import { FileText, EllipsisVertical, Plus } from "lucide-react";
+import { EllipsisVertical, Plus } from "lucide-react";
 import React from "react";
+import Image from "next/image";
 
 const cardContent = [
   {
-    Icon: FileText,
+    Icon: '/yout.svg',
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
+    opacityBg: "bg-[#F73140]/60",
+    hoverBg: "hover:bg-[#F73140]/70",
   },
   {
-    Icon: FileText,
+    Icon: '/doc.svg',
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
+    opacityBg: "bg-[#006FE8]/60",
+    hoverBg: "hover:bg-[#006FE8]/70",
   },
   {
-    Icon: FileText,
+    Icon: '/text.svg',
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
+    opacityBg: "bg-[#5C9CEE]/60",
+    hoverBg: "hover:bg-[#5C9CEE]/70",
   },
   {
-    Icon: FileText,
+    Icon: '/pdf.svg',
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
+    opacityBg: "bg-[#DE3B38]/60",
+    hoverBg: "hover:bg-[#DE3B38]/70",
   },
 ];
 
@@ -52,15 +61,15 @@ const QuizzesSection = () => {
             <div className="font-sans text-xl md:text-2xl">Create new quizz</div>
             </div>
         </DialogTrigger>
-        {cardContent.map(({ Icon, title, date }, index) => (
+        {cardContent.map(({ Icon, title, date, opacityBg, hoverBg }, index) => (
           <div
             key={index}
             onClick={handleCardClick}
-            className="card hover:bg-background transition-all duration-300 bg-muted cursor-pointer h-56 border-2 border-muted rounded-2xl flex flex-col justify-between p-6"
+            className={`card ${opacityBg} transition-all duration-300 cursor-pointer h-56 border-2 border-muted rounded-2xl flex flex-col justify-between p-6`}
           >
             <div className="icon-and-bulk flex justify-between">
-              <Icon size={40} />
-              <div className="p-3 hover:bg-muted rounded-full cursor-pointer">
+              <Image width={40} height={40} src={Icon} alt='icon' />
+              <div className={`p-3 ${hoverBg} rounded-full cursor-pointer`}>
                 <EllipsisVertical
                   size={20}
                   onClick={(e) => {
