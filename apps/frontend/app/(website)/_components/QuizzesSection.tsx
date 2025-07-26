@@ -11,32 +11,32 @@ const cardContent = [
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
-    opacityBg: "bg-[#F73140]/60",
-    hoverBg: "hover:bg-[#F73140]/70",
+    opacityBg: "bg-[#F73140]/60 dark:bg-[#F73140]/30",
+    hoverBg:   "hover:bg-[#F73140]/20 dark:hover:bg-[#F73140]/15",
   },
   {
     Icon: '/doc.svg',
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
-    opacityBg: "bg-[#006FE8]/60",
-    hoverBg: "hover:bg-[#006FE8]/70",
+    opacityBg: "bg-[#006FE8]/60 dark:bg-[#006FE8]/30",
+    hoverBg:   "hover:bg-[#006FE8]/20 dark:hover:bg-[#006FE8]/15",
   },
   {
     Icon: '/text.svg',
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
-    opacityBg: "bg-[#5C9CEE]/60",
-    hoverBg: "hover:bg-[#5C9CEE]/70",
+    opacityBg: "bg-[#5C9CEE]/60 dark:bg-[#5C9CEE]/30",
+    hoverBg:   "hover:bg-[#5C9CEE]/20 dark:hover:bg-[#5C9CEE]/15",
   },
   {
     Icon: '/pdf.svg',
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
-    opacityBg: "bg-[#DE3B38]/60",
-    hoverBg: "hover:bg-[#DE3B38]/70",
+    opacityBg: "bg-[#DE3B38]/60 dark:bg-[#DE3B38]/30",
+    hoverBg:   "hover:bg-[#DE3B38]/20 dark:hover:bg-[#DE3B38]/15",
   },
 ];
 
