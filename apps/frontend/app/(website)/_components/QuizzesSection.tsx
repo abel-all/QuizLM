@@ -11,7 +11,7 @@ const cardContent = [
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
-    opacityBg: "bg-[#F73140]/60 dark:bg-[#F73140]/30",
+    opacityBg: "bg-[#f1e9ef] dark:bg-[#29291d]",
     hoverBg:   "hover:bg-[#F73140]/20 dark:hover:bg-[#F73140]/15",
   },
   {
@@ -19,7 +19,7 @@ const cardContent = [
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
-    opacityBg: "bg-[#006FE8]/60 dark:bg-[#006FE8]/30",
+    opacityBg: "bg-[#eeeffa] dark:bg-[#1f2520]",
     hoverBg:   "hover:bg-[#006FE8]/20 dark:hover:bg-[#006FE8]/15",
   },
   {
@@ -27,7 +27,7 @@ const cardContent = [
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
-    opacityBg: "bg-[#5C9CEE]/60 dark:bg-[#5C9CEE]/30",
+    opacityBg: "bg-[#f2f2e8] dark:bg-[#21222d]",
     hoverBg:   "hover:bg-[#5C9CEE]/20 dark:hover:bg-[#5C9CEE]/15",
   },
   {
@@ -35,7 +35,7 @@ const cardContent = [
     title:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci",
     date: "21 Jul 2025",
-    opacityBg: "bg-[#DE3B38]/60 dark:bg-[#DE3B38]/30",
+    opacityBg: "bg-[#e2f2e5] dark:bg-[#29201e]",
     hoverBg:   "hover:bg-[#DE3B38]/20 dark:hover:bg-[#DE3B38]/15",
   },
 ];
